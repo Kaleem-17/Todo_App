@@ -1,0 +1,48 @@
+/* body {
+  background-color: #e3f2fd; light pastel blue 
+
+  background: linear-gradient(120deg, #fffbea, #fdf5e6);
+} */
+body {
+  background: rgb(110, 140, 110);
+  color: #000000; /* switch to white text if you use this */
+}
+
+.main-head {
+  text-align: center;
+}
+.input-btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.input-btn input {
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#btn-toadd-task {
+  padding: 5px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.task-items {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.btn-style {
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
